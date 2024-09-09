@@ -1,7 +1,8 @@
+import React from "react"
 import InputTodos from "./components/InputTodos"
 
 
-function App() {
+const App : React.FC = () => {
 
 
   return (

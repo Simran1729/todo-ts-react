@@ -1,4 +1,9 @@
-function InputTodos() {
+import React, { useState } from "react";
+
+const InputTodos : React.FC = () => {
+  
+  const [todos, setTodos] = useState<string[]>([]);
+
   return (
     <>
       <div className="h-screen flex flex-col bg-gradient-to-br from-green-200 to-white">
